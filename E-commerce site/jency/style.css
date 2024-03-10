@@ -1,0 +1,77 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1a1a1a;
+}
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 20px;
+    
+}
+nav ul li{
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+nav ul li:hover{
+    color: grey;
+}
+main{
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero{
+
+}
+
+.form-wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    margin-bottom: 20px;
+}
+
+input[type='text'],input[type='password']{
+    background-color: transparent;
+    outline: none;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+button{
+    cursor: pointer;
+    width: 340px;
+    padding: 12px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
